@@ -1,0 +1,71 @@
+{
+  "$schemaVersion": "2.0.0",
+  "$schema": "https://canonical.o3de.org/o3de-gem-2.0.0.json",
+  "gem": {
+    "name": "org.o3de.gem.optickprofiler",
+    "version": "1.0.0",
+    "display_name": "Optick Profiler",
+    "description": "Implements the O3DE profiler tags to be used by the Optick third party profiler",
+    "type": "code",
+    "id": "",
+    "copyright_text": ""
+  },
+  "origin": {
+    "name": "O3DE Extras",
+    "url": "https://github.com/o3de/o3de-extras/development/Gems/ExternalProfilers/OptickProfiler"
+  },
+  "licenses": [
+    {
+      "license_identifier": "Apache-2.0 Or MIT",
+      "url": "https://github.com/o3de/o3de/blob/development/LICENSE.txt",
+      "display_name": "Apache 2.0 Or MIT",
+      "relative_path": ""
+    }
+  ],
+  "canonical_tags": [
+    "Gem"
+  ],
+  "user_tags": [
+    "Profiler"
+  ],
+  "icon": {
+    "relative_path": "preview.png",
+    "url": ""
+  },
+  "documentation": {
+    "relative_path": "",
+    "url": ""
+  },
+  "children": {
+    "engines": [],
+    "projects": [],
+    "gems": [],
+    "templates": [],
+    "repos": [],
+    "overlays": []
+  },
+  "remote": {
+    "engines": [],
+    "projects": [],
+    "gems": [],
+    "templates": [],
+    "repos": [],
+    "overlays": []
+  },
+  "dependent": {
+    "gems": []
+  },
+  "downloads": [
+    {
+      "source": "https://github.com/o3de/o3de-extras/releases/download/2.0/optickprofiler-1.0.0-gem.zip"
+    }
+  ],
+  "platforms": [
+    "Windows",
+    "Linux",
+    "Mac",
+    "iOS",
+    "Android"
+  ],
+  "requirements": "Users will need to download Optick GUI from the <a href='https://github.com/bombomby/optick/releases'>Github release</a>."
+}
